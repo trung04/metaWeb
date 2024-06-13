@@ -18,8 +18,10 @@
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: flex 0.5s ease-in;
+    transition: flex 0.3s ease-in;
+    border-radius: 0px;
 }
+
 
 .panel h3 {
     font-size: 24px;
@@ -28,6 +30,7 @@
     left: 20px;
     margin: 0;
     opacity: 0;
+    color: white;
 }
 
 .panel.active {
