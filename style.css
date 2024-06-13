@@ -48,3 +48,69 @@
         display: none;
     } 
 }
+@media only screen and (max-width: 600px) {
+    .panel {
+       
+        height: 50vh !important;
+    
+    }
+    #BUILD{
+        display: none;
+    }
+    #TextSocial{
+        display: none;
+    }
+    #containerBuild{
+        padding-left: 0px !important;
+        padding-bottom: 70px !important;
+        padding-top: 50px !important;
+    }
+    #textcontainerBuild{
+        width: 100% !important;
+    }
+    #image1{
+        display: none;
+    }
+    #image2{
+        display: none;
+    }
+    #section3{
+        height: 100%   !important;
+    }
+    #col1{
+        max-width: 100% !important;
+    }
+    #text1Section3{
+        padding-left: 0px;
+    }
+    #text2Setion3{
+        max-width: 100% !important;
+        padding-left: 0px !important;
+        padding-top: 10px !important; 
+    }
+    #section4{
+        display: none;
+    }
+   #image3{
+    display: none;
+   }
+   #sectionhai
+   {
+    height: 390px !important;
+
+   }
+    
+    /* Thêm các quy tắc CSS cho các thiết bị di động ở đây */
+}
+@media only screen and (min-width: 600px) {
+
+    #BUILDMobile{
+        display: none;
+    }
+    #section4Mobi{
+        display: none;
+    }
+   
+    
+    /* Thêm các quy tắc CSS cho các thiết bị di động ở đây */
+}
