@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CPUPressure",[],(function(a,b,c,d,e,f){"use strict";var g="PressureObserver"in window,h=new Set(),i=!1,j="nominal";function a(){return j}function b(){if(!i){if(g)try{var a=new window.PressureObserver(function(a){a.forEach(function(a){j=a.state,h.forEach(function(b){b(a)})})});void a.observe("cpu",{sampleInterval:1e3})}catch(a){}i=!0}}function c(a){if(g){h.add(a);return function(){h["delete"](a)}}else return function(){}}f.canUseCPUPressureAPI=g;f.getCurrentState=a;f.init=b;f.subscribe=c}),66);
